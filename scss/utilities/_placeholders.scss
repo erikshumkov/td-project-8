@@ -1,0 +1,33 @@
+/*===========================================
+// Placeholders
+//==========================================*/
+
+%transform-fix {
+  transform-origin: 50% 50%;
+  transform-box: fill-box;
+}
+
+//Nav items
+%nav-items {
+  display: block;
+  margin: 5px auto;
+  text-align: center;
+  text-transform: uppercase;
+  @include medq('small') {
+    display: inline-block;
+    margin: 0 0 0 20px;
+    text-align: left;
+  }
+}
+
+// Links
+%nav-links {
+  text-align: center;
+  margin-right: 25px;
+  font-size: 15px;
+  color: $black;
+  @include medq('small') {
+    margin-right: inherit;
+    padding: 15px 0 15px 0;
+  }
+}

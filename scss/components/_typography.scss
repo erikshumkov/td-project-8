@@ -1,0 +1,31 @@
+/*===========================================
+// Typography
+//==========================================*/
+
+.company__name {
+  display: block;
+  text-shadow: 0px 3px 3px $text-shadow-color,
+               1px 5px 5px $text-shadow-color,
+               2px 6px 10px $text-shadow-color;
+  @include medq('small') {
+     display: none;
+  }
+}
+
+.h1__dog {
+  font-size: 34px;
+  text-shadow: 1px 1px 3px $text-shadow-color,
+               2px 2px 3px $text-shadow-color,
+               3px 3px 4px $text-shadow-color;
+}
+
+.coat {
+  text-shadow: 1px 1px 3px $text-shadow-color,
+               2px 2px 3px $text-shadow-color,
+               3px 3px 4px $text-shadow-color;
+}
+
+.span--text {
+  color: $black;
+  margin-right: 30px;
+}

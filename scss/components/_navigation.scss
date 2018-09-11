@@ -1,0 +1,55 @@
+/*===========================================
+// Navigation
+//==========================================*/
+
+.nav {
+  padding: 0;
+  @include medq('small') {
+    padding: 0;
+    margin-left: 25px;
+  }
+  &__item {
+    @extend %nav-items;
+  }
+  &__item a {
+    @extend %nav-links;
+    &:hover svg path,
+    &:hover {
+      color: $nav-hover-color;
+    }
+  }
+
+  &__item svg {
+    margin-right: 20px;
+    transition: all .5s ease-out;
+    @extend %transform-fix;
+    transform: $transform-perspective-primary;
+    @include medq('small') {
+      margin-right: 0;
+    }
+  }
+
+  &__item:first-of-type svg {
+    margin-right: 9%;
+    @include medq('small') {
+      margin-right: inherit;
+    }
+  }
+  &__item:nth-of-type(2) svg {
+    margin-right: 5%;
+    @include medq('small') {
+      margin-right: inherit;
+    }
+  }
+  &__item:last-of-type svg {
+    margin-right: 4%;
+    @include medq('small') {
+      margin-right: inherit;
+    }
+  }
+
+  &__item a svg path {
+    transition: all .5s ease-out;
+    color: $black;
+  }
+}

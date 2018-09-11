@@ -1,0 +1,55 @@
+/*===========================================
+// Images
+//==========================================*/
+
+// Show Hide Big logo text
+.logo__text {
+  display: none;
+  @include medq('small') {
+    display: block;
+  }
+}
+
+/* Big logo styling */
+.site__logo {
+  .st0 {
+    fill: $logo-background;
+    transition: all .8s ease-out;
+    @extend %transform-fix;
+  }
+  .st1 {
+    fill: $logo-text;
+  }
+  .st2 {
+    fill: $logo-paw;
+    transition: all .5s ease-out;
+    @extend %transform-fix;
+  }
+}
+
+/* Corgi Face Colors */
+.nose_and_eyes {
+  fill: $corgi-nose-eyes;
+}
+.brows {
+  fill: $corgi-brows;
+}
+.white {
+  fill: $corgi-face-white;
+}
+
+/* Individual Corgi Color */
+.corgi {
+  &--sable {
+    color: $corgi-face-sable;
+  }
+  &--fawn {
+    color: $corgi-face-fawn;
+  }
+  &--red {
+    color: $corgi-face-red;
+  }
+  &--stone {
+    color: $corgi-face-stone;
+  }
+}

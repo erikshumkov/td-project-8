@@ -1,0 +1,13 @@
+/*===========================================
+// Footer
+//==========================================*/
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: $black;
+  @include medq('small') {
+    margin-bottom: 30px;
+  }
+}

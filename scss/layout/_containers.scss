@@ -1,0 +1,71 @@
+/*===========================================
+// Containers
+//==========================================*/
+
+#container {
+  max-width: 960px;
+  background: $secondary-background;
+  margin: $margin-center;
+  height: 100%;
+  @include medq('small') {
+    margin-bottom: 40px;
+  }
+}
+
+// Site Logo Container
+.site__logo {
+  margin: $margin-center;
+  width: 140px;
+  height: 120px;
+}
+
+// Containing corgi coat colors
+.container__images {
+  @include flexify($dir: column, $just: center);
+  @include medq('small') {
+    @include flexify($dir: row, $just: center, $wrap: wrap);
+  }
+}
+
+// Container for each corgi color
+.sable,
+.fawn,
+.red,
+.stone {
+  @include flexify($dir: column);
+  margin: 10px auto;
+  @include medq('small') {
+    @include flexify($dir: column, $just: space-around);
+    flex: 1 150px;
+    margin: auto 20px auto auto;
+  }
+}
+
+.sable {
+  @include medq('small') {
+    margin-left: 20px;
+  }
+}
+
+.sable svg,
+.fawn svg,
+.red svg,
+.stone svg {
+  @include medq('small') {
+    margin: auto;
+  }
+}
+
+// Chat bubble
+.bubble {
+  background: $paragraph-background;
+  margin: -15px auto 0 auto;
+  padding: 10px 10px;
+  width: 10px;
+  height: 10px;
+  box-shadow: 0px 0px 5px $box-shadow-color30;
+  border-radius: 3px;
+  transform: rotate(45deg);
+  position: relative;
+  z-index: 1;
+}

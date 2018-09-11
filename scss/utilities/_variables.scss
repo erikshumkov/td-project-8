@@ -1,0 +1,47 @@
+/*===========================================
+// Variables
+//==========================================*/
+
+// Main Colors
+$black: #111;
+$white: #fff;
+$primary-background: #f1f1f1;
+$secondary-background: $white;
+$paragraph-background: #f9f5ef; //paragraph bg
+$nav-hover-color: #f96fbd; // nav pink hover
+$box-shadow-color30: rgba(0, 0, 0, 0.3);
+$text-shadow-color: #ccc;
+
+// Big Logo Colors
+$logo-background: #BA8058;
+$logo-text: #EAAA7F;
+$logo-paw: #F4C6A6;
+
+// Corgi Face Colors
+$corgi-face-sable: #b97f5b;
+$corgi-face-fawn: #e9aa82;
+$corgi-face-red: #834b29;
+$corgi-face-stone: #52595e;
+// Nose eyes, brows
+$corgi-nose-eyes: #2D3339;
+$corgi-brows: #DA8058;
+$corgi-face-white: #FBFEFF;
+
+// Font Stack
+$font-stack-primary: 'Roboto Slab', serif;
+
+// Border Radius
+$br-main: 5px;
+
+// Transform Perspective
+$transform-perspective-primary: perspective(500px);
+
+// Margin centered
+$margin-center: 0 auto;
+
+// Media Query Breakpoints
+$mq-xs   : 1px;
+$mq-s    : 425px;
+$mq-m     : 768px;
+$mq-l     : 1100px;
+$mq-xl    : 1400px;

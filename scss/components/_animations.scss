@@ -1,0 +1,64 @@
+/*===========================================
+// Animations
+//==========================================*/
+
+// Heart pulsing
+.nav__item:first-of-type:hover svg {
+  transform: $transform-perspective-primary;
+  animation: pulse2k 1.5s ease-out forwards;
+  animation-iteration-count: infinite;
+}
+
+// Location logo jumping
+.nav__item:nth-of-type(2):hover svg {
+  transform: $transform-perspective-primary;
+  animation: upupanddown .6s ease-out forwards;
+}
+
+// Chat bubble floating
+.nav__item:nth-of-type(3):hover svg {
+  transform: $transform-perspective-primary;
+  animation: magiccarpet 1.5s ease-out forwards;
+  animation-iteration-count: infinite;
+}
+
+// Animation when site is loaded
+.first-word {
+  animation: bounce 1s ease-in backwards;
+  animation-delay: 1s;
+}
+
+.second-word {
+  animation: bounce-3 1s ease-in backwards;
+  animation-delay: 2s;
+}
+
+.last-word {
+  animation: bounce-2 1s ease-in backwards;
+  animation-delay: 3s;
+}
+
+.site__logo .st2:nth-of-type(1) {
+  animation: pulse .8s ease-in backwards;
+  animation-delay: 2.2s;
+}
+.site__logo .st2:nth-of-type(2) {
+  animation: pulse .8s 2.4s ease-in backwards;
+}
+.site__logo .st2:nth-of-type(3) {
+  animation: pulse .8s ease-in backwards;
+  animation-delay: 3.2s;
+}
+.site__logo .st2:nth-of-type(4) {
+  animation: pulse .8s ease-in backwards;
+  animation-delay: 1.2s;
+}
+
+.circle .paw {
+  transition: all .8s ease-out;
+  @extend %transform-fix;
+}
+// Logo goes high five on hover 
+.circle:hover .paw {
+  animation: biggie 1s ease-in-out forwards;
+}
