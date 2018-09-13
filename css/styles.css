@@ -50,7 +50,9 @@
   50% {
     transform: perspective(500px) translate3d(0, 0, 0); }
   80% {
-    transform: perspective(500px) translate3d(0, 0, -100px); } }
+    transform: perspective(500px) translate3d(0, 0, -100px); }
+  100% {
+    transform: perspective(500px) translate3d(0, 0, 0); } }
 @keyframes upupanddown {
   0% {
     transform: perspective(500px) translate3d(0, 0, 0); }
@@ -68,7 +70,9 @@
   50% {
     transform: perspective(500px) translate3d(0, 2px, 0); }
   80% {
-    transform: perspective(500px) translate3d(0, -2px, 0); } }
+    transform: perspective(500px) translate3d(0, -2px, 0); }
+  100% {
+    transform: perspective(500px) translate3d(0, 0, 0); } }
 @keyframes biggie {
   0% {
     transform: scale(1); }

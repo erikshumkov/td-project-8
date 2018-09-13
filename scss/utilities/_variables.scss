@@ -7,7 +7,7 @@ $black: #111;
 $white: #fff;
 $primary-background: #f1f1f1;
 $secondary-background: $white;
-$paragraph-background: #f9f5ef; //paragraph bg
+$paragraph-background: #f9f5ef;
 $nav-hover-color: #f96fbd; // nav pink hover
 $box-shadow-color30: rgba(0, 0, 0, 0.3);
 $text-shadow-color: #ccc;
@@ -30,13 +30,10 @@ $corgi-face-white: #FBFEFF;
 // Font Stack
 $font-stack-primary: 'Roboto Slab', serif;
 
-// Border Radius
-$br-main: 5px;
-
 // Transform Perspective
 $transform-perspective-primary: perspective(500px);
 
-// Margin centered
+// Margin center
 $margin-center: 0 auto;
 
 // Media Query Breakpoints

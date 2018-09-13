@@ -58,7 +58,7 @@
   transition: all .8s ease-out;
   @extend %transform-fix;
 }
-// Logo goes high five on hover 
+// Logo goes high five on hover
 .circle:hover .paw {
   animation: biggie 1s ease-in-out forwards;
 }
